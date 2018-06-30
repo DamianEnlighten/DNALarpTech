@@ -1,12 +1,12 @@
-.block {
-    position: relative;
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo-image {
-    position: absolute;
-    top: calc(50% - 100px);
-    height: 200px;
-    width: 200px;
-    left: calc(50% - 100px);
+  position: absolute;
+  height: 58%;
+  width: 20%;
 }
 
 .swiper-container {
