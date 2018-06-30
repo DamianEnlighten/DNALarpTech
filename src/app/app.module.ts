@@ -1,9 +1,8 @@
-﻿//Angular
+//Angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
 
 //Root
 import { AppRoutingModule } from './app-routing.module';
@@ -17,20 +16,20 @@ import { HomeComponent } from './components/home/home.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
-      AppComponent,
-      HomeComponent,
-      FooterComponent,
-      NavComponent
+    AppComponent,
+    HomeComponent,
+    FooterComponent,
+    NavComponent
   ],
   imports: [
-      BrowserModule.withServerTransition({ appId: 'dalarptech' }),
-      FormsModule,
-      AppRoutingModule,
-      SharedModule,
-      CommonModule,
-      HttpClientModule
+    BrowserModule.withServerTransition({ appId: 'dnalarptech' }),
+    FormsModule,
+    AppRoutingModule,
+    SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

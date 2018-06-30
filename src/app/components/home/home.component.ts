@@ -1,6 +1,7 @@
 import { Component, OnInit,  PLATFORM_ID, Inject } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import Swiper from 'swiper';
+
 @Component({
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss']

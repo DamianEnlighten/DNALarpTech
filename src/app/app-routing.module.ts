@@ -1,6 +1,5 @@
-﻿import { NgModule, PLATFORM_ID, Inject } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-import { Routes, RouterModule, Router, NavigationEnd, NavigationStart, ActivatedRoute, UrlSegment } from '@angular/router';
+import { NgModule} from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 //Components
 import { HomeComponent } from './components/home/home.component';
@@ -16,19 +15,6 @@ const routes: Routes = [
        //     content: PageServiceResolve
         }
     },
-    /*{
-        path: 'powerview',
-        redirectTo: '/operating-systems/motorized/powerview-motorization',
-        pathMatch: 'full'
-    },*/
-    //Catch all to generic
-    /*{
-        path: '**',
-        component: GenericComponent,
-        resolve: {
-            content: PageServiceResolve
-        }
-    }*/
 ]
 
 @NgModule({
