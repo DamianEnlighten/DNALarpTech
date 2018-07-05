@@ -14,7 +14,7 @@ enableProdMode();
 const app = express();
 
 const PORT = 8000;
-const DIST_FOLDER = join(process.cwd(), '');
+const DIST_FOLDER = join(process.cwd(), 'dist');
 
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 const { AppServerModuleNgFactory } = require('./dist/server/main');
